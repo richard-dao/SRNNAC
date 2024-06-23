@@ -215,7 +215,14 @@ surrogate = snn.surrogate.atan(alpha=2)
 model = nn.Sequential(
     # Define network architecture here
     nn.LSTM(input_size=inputs, hidden_size=512, batch_first=True),
+
     nn.Dropout(p=0.2),
+
+    nn.Linear(in_features=512, out_features=512),
+    snn.RLeaky(beta=beta, init_hidden=True),
+
+    nn.Linear(in_features=512, out_features=512),
+    snn.RLeaky(beta=beta, init_hidden=True),
 
     nn.Linear(in_features=512, out_features=512),
     snn.RLeaky(beta=beta, init_hidden=True),
@@ -226,6 +233,7 @@ model = nn.Sequential(
     nn.Dropout(p=0.2),
     nn.Linear(in_features=512, out_features=35),
     snn.Leaky(beta=beta, init_hidden=True, output=True)
+
 ).to(device)
 
 ```
