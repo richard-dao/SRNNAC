@@ -7,7 +7,7 @@
 
 ##### By: Richard Dao (<rqdao@ucsc.edu>), Annabel Truong (<anptruon@ucsc.edu>), Mira Prabhakar (<miprabha@ucsc.edu>)
 
-<a href="https://colab.research.google.com/drive/17W8Q_jhssnjWuPnGqK6RkWtVqHeS57gq#scrollTo=69E4SzHiFC28">
+<a href="https://colab.research.google.com/drive/1Ojck3Ui5KgekYF-jZujvSqa6e5iBmuVA?usp=sharing">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
