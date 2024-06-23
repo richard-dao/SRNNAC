@@ -119,7 +119,7 @@ tonic.utils.plot_event_grid(events)
 
 <div class="output display_data">
 
-![](71617d36e315f33732039f4a8c865f0c77c3a60a.png)
+![](https://github.com/richard-dao/SRNNAC/blob/main/images/ssc_channels_vs_time.png)
 
 </div>
 
@@ -134,7 +134,7 @@ print(events.dtype)
 ```
 
 <div class="output stream stdout">
-
+    
     [('t', '<i8'), ('x', '<i8'), ('p', '<i8')]
 
 </div>
@@ -371,7 +371,7 @@ with tqdm(range(num_epochs), unit='Epoch', desc='Training') as pbar:
 ```
 
 <div class="output stream stdout">
-
+    
     Epoch 0, Iteration 0 
     train loss: 4.48
     Accuracy: 3.91%
@@ -456,7 +456,7 @@ plt.show()
 
 <div class="output display_data">
 
-![](251553c013fe7ee24dfe076b4c90ac2eaf47e467.png)
+![](https://github.com/richard-dao/SRNNAC/blob/main/images/ssc_train_acc.png)
 
 </div>
 
@@ -477,7 +477,7 @@ plt.show()
 
 <div class="output display_data">
 
-![](bcb5a330469bdc8e6647d8ceeb6ae73e62875aa9.png)
+![](https://github.com/richard-dao/SRNNAC/blob/main/images/ssc_val_acc.png)
 
 </div>
 
@@ -527,7 +527,7 @@ print("Average Accuracy of Test Dataset: ", str(np.mean(accuracy_history['test']
 ```
 
 <div class="output stream stdout">
-
+    
     Average Accuracy of Test Dataset:  43.8380238791423%
 
 </div>
@@ -568,13 +568,13 @@ plt.show()
 
 <div class="output display_data">
 
-![](6ba7eae6bd6cfbb14fa18750dc86ce350539dfaa.png)
+![](https://github.com/richard-dao/SRNNAC/blob/main/images/ssc_train_val_test_loss.png)
 
 </div>
 
 <div class="output display_data">
 
-![](f1f303a9fae8099b2e866a92645c9616a887248d.png)
+![](https://github.com/richard-dao/SRNNAC/blob/main/images/ssc_train_val_test_acc.png)
 
 </div>
 
