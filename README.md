@@ -193,7 +193,7 @@ test_dataset = tonic.datasets.SSC(save_to=path, split='test', transform=toTensor
 
 We will use snnTorch and PyTorch to construct a Spiking Recurrent Neural Network (SRNN).
 
-We use an initial LSTM layer followed by a Dropout layer into 2 hidden fully connected layers with recurrent leaky-integrate-and-fire (LIF) neurons. Finally, our classifier layers include an initial Dropout layer into a normal (LIF) output neuron
+We use an initial LSTM layer followed by a Dropout layer into 4 hidden fully connected layers with recurrent leaky-integrate-and-fire (LIF) neurons. Finally, our classifier layers include an initial Dropout layer into a normal (LIF) output neuron
 
 </div>
 
